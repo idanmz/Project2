@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+    
+
+}
+.bar{ 
+    width: 100%;
+    min-height: 70px;
+    background: lightblue;
+    float:left
+
+}
+.logo{
+    width: 10%;
+    min-height: inherit;
+    background: white;
+    float: left;
+}
+.menu{
+    width: 90%;
+    min-height: inherit;
+    background: turquoise;
+    float: left;
+    text-align: center;
+    transition: 0.5;
+    
+}
+.logo img{
+    width: 100%%;
+    float: left;
+    min-height: 70px;
+ 
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+}
+.menu ul li:hover{
+    transform: scale(1.3);
+ 
+}
